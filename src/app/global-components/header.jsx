@@ -77,7 +77,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-blue-700 hover:bg-gray-300 rounded">
+              <Link href="/services" className="block px-3 py-2 text-lg text-black hover:text-blue-700 hover:bg-gray-300 rounded">
                 Request a service
               </Link>
             </li>

@@ -62,9 +62,9 @@ export default function FormSection() {
   };
 
   return (
-    <div className="md:max-w-8xl mx-auto items-center">
+    <div className="md:max-w-8xl mx-auto items-center mt-10 ">
       <h1
-        className="text-[#27201a] text-center text-3xl pb-5"
+        className="white text-center text-3xl pb-5"
         style={{ fontFamily: '"Quicksand", sans-serif', fontWeight: 300 }}
       >
         General Inquiries
@@ -73,7 +73,7 @@ export default function FormSection() {
       <form
         method="POST"
         onSubmit={handleSubmit}
-        className="text-amber-950 w-full max-w-xl mx-auto px-4"
+        className="white w-full max-w-xl mx-auto px-4"
         noValidate
       >
         {/* First and Last Name */}
@@ -86,7 +86,7 @@ export default function FormSection() {
               onChange={handleInput}
               required
               value={formData.fname}
-              className="bg-[#fff2df] rounded-2xl p-2 w-full border border-transparent focus:border-[#59433b] focus:ring-2 focus:ring-[#59433b] outline-none"
+              className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
           </div>
           <div>
@@ -97,7 +97,7 @@ export default function FormSection() {
               onChange={handleInput}
               required
               value={formData.lname}
-              className="bg-[#fff2df] rounded-2xl p-2 w-full border border-transparent focus:border-[#59433b] focus:ring-2 focus:ring-[#59433b] outline-none"
+              className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function FormSection() {
                 autoComplete="tel"
                 maxLength={14} // "(123) 456-7890"
                 pattern="\(\d{3}\) \d{3}-\d{4}" // optional HTML validation for mask
-                className="bg-[#fff2df] rounded-2xl p-2 w-full border border-transparent focus:border-[#59433b] focus:ring-2 focus:ring-[#59433b] outline-none"
+                className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function FormSection() {
                 onChange={handleInput}
                 required
                 value={formData.email}
-                className="bg-[#fff2df] rounded-2xl p-2 w-full border border-transparent focus:border-[#59433b] focus:ring-2 focus:ring-[#59433b] outline-none"
+                className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -145,13 +145,13 @@ export default function FormSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           <div className="md:col-span-2 flex justify-center">
             <div className="w-full max-w-xl">
-              <label>Message<br /></label>
+              <label>Tell us about your pest problem<br /></label>
               <textarea
                 name="message"
                 onChange={handleInput}
                 required
                 value={formData.message}
-                className="bg-[#fff2df] rounded-2xl p-2 w-full h-40 border border-transparent focus:border-[#59433b] focus:ring-2 focus:ring-[#59433b] outline-none"
+                className="bg-[#691818] rounded-2xl p-2 w-full h-40 border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function FormSection() {
           <div className="md:col-span-2 flex justify-center">
             <button
               type="submit"
-              className="bg-[#bda28c] rounded-2xl px-6 py-3 cursor-pointer hover:bg-[#8b6d55] text-white w-full max-w-l mt-4"
+              className="bg-[#2e2e2e] rounded-2xl px-6 py-3 cursor-pointer hover:bg-[#8d8d8d] text-white w-full max-w-l mt-4"
               disabled={isLoading}
             >
               {isLoading ? "Sending..." : "Submit"}

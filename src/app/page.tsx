@@ -6,7 +6,7 @@ export default function Page(){
   return(
 <main>
   <div className='bg-black'>
-    <Header />
+  <Header />
    <Home />
    <Footer />
    </div>
