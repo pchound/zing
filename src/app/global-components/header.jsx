@@ -84,6 +84,12 @@ const Header = () => {
 
            
           </ul>
+
+          <ul>
+            <li>
+              Call us: at (725) 242-3555
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

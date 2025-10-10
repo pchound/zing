@@ -19,11 +19,11 @@ const Home = () => {
             />
           </div>
 
-            <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)]">
+            <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white">
                   Professional Pest Control
             </h1>
 
-            <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)]">
+            <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white">
                   Family owned and operated
             </h1>
 
