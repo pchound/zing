@@ -62,7 +62,9 @@ export default function FormSection() {
   };
 
   return (
+    <div className="relative bg-[url('/background2.jpg')] bg-cover bg-center h-screen">
     <div className="md:max-w-8xl mx-auto items-center mt-10 ">
+      
       <h1
         className="white text-center text-3xl pb-5"
         style={{ fontFamily: '"Quicksand", sans-serif', fontWeight: 300 }}
@@ -181,5 +183,6 @@ export default function FormSection() {
         )}
       </form>
     </div>
+  </div>
   );
 }

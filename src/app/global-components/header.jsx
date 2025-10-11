@@ -82,17 +82,22 @@ const Header = () => {
               </Link>
             </li>
 
-           
-          </ul>
-
-          <ul>
-            <li>
-              Call us: at (725) 242-3555
+                        <li className='text-black '>
+                <Link href="/" className="block px-3 py-2 text-lg rounded bg-[#801815] text-white hover:bg-[#a12626]">
+              (725) 242-3555
+              </Link>
             </li>
           </ul>
+
+                    
+
+          
         </div>
+
       </div>
+
     </nav>
+
   );
 };
 
