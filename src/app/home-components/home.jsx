@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -65,10 +66,10 @@ const Home = () => {
   <h1 className="text-5xl md:text-7xl font-bold drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white px-4">
     Your pest-free home is right here!
   </h1>
-
-  <button className="mt-8 px-6 py-3 bg-[#801815] text-white text-xl rounded hover:bg-[#a12626] transition duration-300">
-    Get Started
-  </button>
+  
+  <Link href="/services" className="mt-8 px-6 py-3 bg-[#801815] text-white text-xl rounded hover:bg-[#a12626] transition duration-300">
+      Get Started
+  </Link>
 </div>
 
 

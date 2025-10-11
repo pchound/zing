@@ -63,19 +63,26 @@ export default function FormSection() {
 
   return (
     <div className="relative bg-[url('/background2.jpg')] bg-cover bg-center h-screen">
-    <div className="md:max-w-8xl mx-auto items-center mt-10 ">
-      
+  
+    <div className="md:max-w-6xl mx-auto items-center mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[rgba(0,0,0,0.8)] p-10 rounded-2xl">
+     
+     <div>
       <h1
         className="white text-center text-3xl pb-5"
         style={{ fontFamily: '"Quicksand", sans-serif', fontWeight: 300 }}
       >
         General Inquiries
+ 
       </h1>
+         <p className="text-center">Tell us about your pest problem, and we'll handle it!</p>
+      </div>
+
+
 
       <form
         method="POST"
         onSubmit={handleSubmit}
-        className="white w-full max-w-xl mx-auto px-4"
+        className="white w-full max-w-xl mx-auto px-5"
         noValidate
       >
         {/* First and Last Name */}
@@ -88,7 +95,7 @@ export default function FormSection() {
               onChange={handleInput}
               required
               value={formData.fname}
-              className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
+              className="bg-none rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
           </div>
           <div>
@@ -99,7 +106,7 @@ export default function FormSection() {
               onChange={handleInput}
               required
               value={formData.lname}
-              className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
+              className="bg-none rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
           </div>
         </div>
@@ -107,7 +114,7 @@ export default function FormSection() {
         {/* Phone (live formatted) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           <div className="md:col-span-2 flex justify-center">
-            <div className="w-full max-w-md">
+            <div className="w-full md:max-w-xl">
               <label>Phone<br /></label>
               <input
                 type="tel"
@@ -120,7 +127,7 @@ export default function FormSection() {
                 autoComplete="tel"
                 maxLength={14} // "(123) 456-7890"
                 pattern="\(\d{3}\) \d{3}-\d{4}" // optional HTML validation for mask
-                className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
+                className="bg-[none] rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -129,7 +136,7 @@ export default function FormSection() {
         {/* Email */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           <div className="md:col-span-2 flex justify-center">
-            <div className="w-full md:max-w-md">
+            <div className="w-full md:max-w-xl">
               <label>Email<br /></label>
               <input
                 type="email"
@@ -137,7 +144,7 @@ export default function FormSection() {
                 onChange={handleInput}
                 required
                 value={formData.email}
-                className="bg-[#691818] rounded-2xl p-2 w-full border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
+                className="bg-[none] rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -153,7 +160,7 @@ export default function FormSection() {
                 onChange={handleInput}
                 required
                 value={formData.message}
-                className="bg-[#691818] rounded-2xl p-2 w-full h-40 border border-transparent focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
+                className="bg-[none] rounded-2xl p-2 w-full h-40 border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
             </div>
           </div>
@@ -164,7 +171,7 @@ export default function FormSection() {
           <div className="md:col-span-2 flex justify-center">
             <button
               type="submit"
-              className="bg-[#2e2e2e] rounded-2xl px-6 py-3 cursor-pointer hover:bg-[#8d8d8d] text-white w-full max-w-l mt-4"
+              className="bg-[#801815] rounded-2xl px-6 py-3 cursor-pointer hover:bg-[#a12626] text-white w-full max-w-l mt-4"
               disabled={isLoading}
             >
               {isLoading ? "Sending..." : "Submit"}
@@ -183,6 +190,8 @@ export default function FormSection() {
         )}
       </form>
     </div>
-  </div>
+
+    
+</div>
   );
 }
