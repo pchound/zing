@@ -68,13 +68,13 @@ export default function FormSection() {
      
      <div>
       <h1
-        className="white text-center text-3xl pb-5"
+        className="text-white text-center text-3xl pb-5"
         style={{ fontFamily: '"Quicksand", sans-serif', fontWeight: 300 }}
       >
         General Inquiries
  
       </h1>
-         <p className="text-center">Tell us about your pest problem, and we'll handle it!</p>
+         <p className="text-white text-center">Tell us about your pest problem, and we'll handle it!</p>
       </div>
 
 
@@ -82,7 +82,7 @@ export default function FormSection() {
       <form
         method="POST"
         onSubmit={handleSubmit}
-        className="white w-full max-w-xl mx-auto px-5"
+        className="text-white w-full max-w-xl mx-auto px-5"
         noValidate
       >
         {/* First and Last Name */}
