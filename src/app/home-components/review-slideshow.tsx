@@ -12,7 +12,7 @@ type Review = {
 };
 
 type Props = {
-  reviews: Review[];
+   reviews: ReadonlyArray<Review>; // or: readonly Review[]
   autoPlayMs?: number;     // default 5000
   pauseOnHover?: boolean;  // default true
 };
