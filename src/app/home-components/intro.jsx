@@ -12,8 +12,8 @@ const Intro = () => {
             <Image
               src="/logo.png"
               alt="Zing Pest"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="mt-10"
             />
           </div>
