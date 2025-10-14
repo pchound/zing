@@ -18,11 +18,20 @@ const Intro = () => {
             />
           </div>
 
-            <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white">
+            <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
+            
+            style={{
+            fontFamily: '"Inter", sans-serif',
+            fontWeight: 500
+        }}>
                   Professional Pest Control
             </h1>
 
-            <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white">
+            <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
+             style={{
+            fontFamily: '"Inter", sans-serif',
+            fontWeight: 400
+        }}>
                   Family owned and operated
             </h1>
 

@@ -37,7 +37,7 @@ export const REVIEWS = [
     name: 'Philip Tedpahogo',
     rating: 5,
     text:
-      'Your Review: (5 Stars)Your Technician Pablo was very Professional, courteous, knowledgeable, and friendly, and more importantly answered ALL questions regarding our family needs during his visit! A job well done Pablo!! Excellent customer service!!; and TYSM Zing for your overall exceptional service today and in the past as well!🫡👍🙏 Tedpahogo Family “NLV Resident. “A world class customer service for sure! and Zing honors and appreciates all Veterans in the Las Vegas Community “!',
+      'Excellent customer service!!; and TYSM Zing for your overall exceptional service today and in the past as well!🫡👍🙏 Tedpahogo Family “NLV Resident. “A world class customer service for sure! and Zing honors and appreciates all Veterans in the Las Vegas Community “!',
     avatarUrl: 'avatars/philip-tedpahogo.png', // optional
   },
 ] as const;

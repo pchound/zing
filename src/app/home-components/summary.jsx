@@ -4,19 +4,40 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Summary = () => {
+  
+// Font import
+useEffect(() => {
+    const link = document.createElement('link');
+    link.href =
+        'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+}, []);
+
+
+
   return (
     <div className="bg-[radial-gradient(circle_at_center,_#f5deb3,_#f5f5dc)] py-16 px-6 mt-20">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <h1 className="text-4xl font-bold text-center mb-8 text-black"
+            style={{
+            fontFamily: '"Inter", sans-serif',
+            fontWeight: 700
+        }}>
+       At Zing Pest,
+        </h1>
+      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-8 items-center">
       {/* Text block */}
 
       <div className=''>
-        <h1 className="text-4xl font-bold text-center mb-8 text-black">
-       At Zing Pest,
-        </h1>
-        <p className="text-black "> 
+
+        <p className="text-black "
+            style={{
+            fontFamily: '"Inter", sans-serif',
+            fontWeight: 300
+        }}> 
   
         <br />
-        we firmly believe that exceptional customer service extends
+        We firmly believe that exceptional customer service extends
         beyond mere satisfaction; it encompasses building trust and maintaining
         open, honest communication with our clients. We prioritize your peace of
         mind by thoroughly explaining our methods, addressing any concerns, and
@@ -32,13 +53,13 @@ const Summary = () => {
         </p>
       </div>
 
-<div className="w-[600px]">
+<div className="flex justify-center">
   <Image
     src="/home-pest3.jpg"
     alt="Pest Control Man"
     width={500}
-    height={0} // ignored, but required syntactically
-    className="h-auto w-full rounded-xl shadow-xl"
+    height={500}
+    className="rounded-xl shadow-xl"
   />
 </div>
 
