@@ -10,7 +10,7 @@ const Intro = () => {
 
 
         <div className="relative bg-[url('/background5.jpg')] bg-cover bg-center h-screen">
-          <div className="flex justify-center">
+          <div className="flex justify-center pt-[40px]">
             <Image
               src="/logo.png"
               alt="Zing Pest"
@@ -23,7 +23,7 @@ const Intro = () => {
             <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
             
             style={{
-            fontFamily: '"Inter", sans-serif',
+            fontFamily: '"Anton", sans-serif',
             fontWeight: 500
         }}>
                   Professional Pest Control
@@ -31,7 +31,7 @@ const Intro = () => {
 
             <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
              style={{
-            fontFamily: '"Inter", sans-serif',
+            fontFamily: '"Anton", sans-serif',
             fontWeight: 400
         }}>
                   Family owned and operated

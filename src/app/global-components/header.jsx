@@ -35,7 +35,7 @@ const Header = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="bg-white border-gray-200" style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <nav className="bg-white border-gray-200" style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 400 }}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-10">
 
 
