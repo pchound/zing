@@ -127,7 +127,7 @@ useEffect(() => {
 
 
       <div
-      className="pt-20 pb-10"
+      className="pt-20 pb-10 "
 
       style={{
         backgroundImage: "url('/pattern.svg')",
@@ -135,7 +135,7 @@ useEffect(() => {
     >
 
       {/* Slides viewport */}
-      <div className="overflow-hidden rounded-2xl bg-[#686157] w-[90%] md:max-w-7xl mx-auto">
+      <div className="overflow-hidden rounded-2xl bg-[#686157] w-[90%] md:max-w-7xl mx-auto ">
 
         <div
           className="flex transition-transform duration-500 ease-out"

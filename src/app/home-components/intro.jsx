@@ -6,7 +6,9 @@ import Link from 'next/link';
 const Intro = () => {
   return (
     
-      <div className=''>
+      <div className="pb-[130px] md:pb-[50px]">
+
+
         <div className="relative bg-[url('/background5.jpg')] bg-cover bg-center h-screen">
           <div className="flex justify-center">
             <Image

@@ -16,7 +16,7 @@ const Map = () => {
     <div className="bg-[#ffffff]">
     <div className="py-5 px-0 mt-20 ">
   
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-0 items-center ">
+      <div className="max-w-sm md:max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-0 items-center  ">
         {/* Map */}
         <div className="md:col-span-2  overflow-hidden shadow-xl h-[450px]">
           <iframe
