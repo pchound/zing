@@ -120,13 +120,14 @@ useEffect(() => {
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
+      
     >
 
 
 
 
       <div
-      className=" pt-20 pb-10"
+      className="pt-20 pb-10"
 
       style={{
         backgroundImage: "url('/pattern.svg')",
@@ -227,6 +228,7 @@ useEffect(() => {
                 ${i === index ? 'bg-[#d21f19]' : 'bg-[#706558] hover:bg-gray-400 cursor-pointer'}`}
             />
           ))}
+          
         </div>
       </div>
       </div>
