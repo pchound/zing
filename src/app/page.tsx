@@ -4,6 +4,7 @@ import Summary from './home-components/summary';
 import Map from './home-components/map';
 import ReviewSlideshow from './home-components/review-slideshow';
 import { REVIEWS } from './home-components/reviews';
+import Services from './home-components/services';
 import Footer from './global-components/footer';
 
 
@@ -17,13 +18,12 @@ export default function Page(){
     
     <Header />
     <Intro />
-
-    <div className="-mt-30 z-10">
-      <ReviewSlideshow reviews={REVIEWS} />
+    <div className="-mt-45 mb-10 relative z-1">
+      <Summary />
     </div>
-
-    {/* <Summary /> */}
+    <ReviewSlideshow reviews={REVIEWS} />
     <Map />
+   
     <Footer />
   </div>
    </main>

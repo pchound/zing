@@ -17,7 +17,7 @@ useEffect(() => {
 
 
   return (
-    <div className=" py-16 px-6 mt-20">
+    <div className="py-16 px-6 mt-20">
             <h1 className="text-4xl font-bold text-center mb-8 text-black"
             style={{
             fontFamily: '"Inter", sans-serif',
@@ -34,11 +34,16 @@ useEffect(() => {
   <Image
     src="/home-pest3.jpg"
     alt="Pest Control Man"
-    width={500}
-    height={500}
+    width={1000}
+    height={1000}
     className="rounded-xl shadow-xl"
   />
 </div>
+        <div className="md:col-span-2">
+          <p className="text-lg text-black mb-4">
+          we are dedicated to providing top-notch pest control services to ensure your home and business remain pest-free. With years of experience in the industry, our team of licensed professionals utilizes the latest techniques and eco-friendly solutions to effectively eliminate pests while prioritizing the safety of your family and pets.
+          </p>
+        </div>
 
     </div>
     </div>

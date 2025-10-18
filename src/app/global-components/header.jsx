@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <nav
-      className="bg-white border-gray-200"
+      className="shadow-[inset_1px_0px_64px_0px_rgba(0,_0,_0,_0.3)]"
       style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 400 }}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-10 pb-5 md:pb-5 lg:pb-5 relative">
@@ -59,7 +59,7 @@ const Header = () => {
         <button
           type="button"
           onClick={() => setMenuOpen((v) => !v)}
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 cursor-pointer
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 bg-transparent cursor-pointer
           md:hidden absolute right-4 top-10 z-10"
           aria-controls="primary-nav"
           aria-expanded={menuOpen}
@@ -87,22 +87,22 @@ const Header = () => {
         >
           <ul className="md:overflow-visible flex flex-col md:flex-row p-4 md:p-0 mt-7 md:mt-0 space-y-2 md:space-y-0 md:space-x-8 bg-gray-200 md:bg-white border border-gray-300 md:border-0 rounded-lg">
             <li>
-              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-blue-700 hover:bg-gray-300 rounded">
+              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-blue-700 hover:bg-gray-300 rounded">
+              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/services" className="block px-3 py-2 text-lg text-black hover:text-blue-700 hover:bg-gray-300 rounded">
+              <Link href="/services" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
                 Request a service
               </Link>
             </li>
             <li className="text-black">
-              <Link href="/" className="block px-3 py-2 text-lg rounded bg-[#801815] text-white hover:bg-[#a12626]">
+              <Link href="tel:17252423555" className="block px-3 py-2 text-lg rounded bg-[#801815] text-white hover:bg-[#a12626]">
                 (725) 242-3555
               </Link>
             </li>
