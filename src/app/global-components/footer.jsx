@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div
-      className="bg-[#f3f4f6] shadow-inner mt-20 pt-10"
+      className="bg-[#f3f4f6] shadow-inner mt-10 pt-10"
       style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 400 }}
     >
 

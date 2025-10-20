@@ -17,35 +17,83 @@ useEffect(() => {
 
 
   return (
-    <div className="py-16 px-6 mt-20">
-            <h1 className="text-4xl font-bold text-center mb-8 text-black"
+    <div className="py-16 px-6 mt-20 bg-[#000000]/70 
+    
+    ">
+            <h1 className="text-4xl font-bold text-center mb-8 text-white"
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700
         }}>
-       At Zing Pest,
+       OUR SERVICES
         </h1>
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8 items-center">
+      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8 items-center"
+      style={{
+            fontFamily: '"Quicksand", sans-serif',
+            fontWeight: 300
+        }}>
       {/* Text block */}
 
      
 
-<div className="flex justify-center">
-  <Image
-    src="/home-pest3.jpg"
-    alt="Pest Control Man"
-    width={1000}
-    height={1000}
-    className="rounded-xl shadow-xl"
-  />
+<div className="bg-radial 
+ flex justify-center p-5 rounded-2xl ">
+  <div className="text-center bg-[#4d1207] rounded-2xl">
+    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
+    <Image
+      src="/icons/scorpion.png"
+      alt="icon"
+      width={100}
+      height={100}
+    />
+    </div>
+    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
+  </div>
 </div>
-        <div className="md:col-span-2">
-          <p className="text-lg text-black mb-4">
-          we are dedicated to providing top-notch pest control services to ensure your home and business remain pest-free. With years of experience in the industry, our team of licensed professionals utilizes the latest techniques and eco-friendly solutions to effectively eliminate pests while prioritizing the safety of your family and pets.
-          </p>
-        </div>
+
+<div className="bg-radial 
+ flex justify-center p-5 rounded-2xl ">
+  <div className="text-center bg-[#000000]/70 rounded-2xl">
+    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
+    <Image
+      src="/icons/scorpion.png"
+      alt="icon"
+      width={100}
+      height={100}
+    />
+    </div>
+    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
+  </div>
+</div>
+
+<div className="bg-radial 
+ flex justify-center p-5 rounded-2xl ">
+  <div className="text-center bg-[#4d1207] rounded-2xl">
+    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
+    <Image
+      src="/icons/scorpion.png"
+      alt="icon"
+      width={100}
+      height={100}
+    />
+    </div>
+    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
+  </div>
+</div>
+
+
+
+
+
 
     </div>
+       <h1 className="text-2xl font-bold text-center mb-8 text-white"
+            style={{
+            fontFamily: '"Inter", sans-serif',
+            fontWeight: 700
+        }}>
+    AND MANY MORE!
+    </h1>
     </div>
   );
 };

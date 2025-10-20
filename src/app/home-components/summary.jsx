@@ -4,11 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Summary = () => {
-  
-// Font import
-
-
-
 
   return (
     <div className="py-16 px-6">

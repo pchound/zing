@@ -12,20 +12,20 @@ import Footer from './global-components/footer';
 
 export default function Page(){
   return(
-<main>
-  <div className='bg-white'>
-
-    
+<main className="bg-white
+">
+  <div className="">
     <Header />
     <Intro />
-    <div className="-mt-45 mb-10 relative z-1">
+    <div className="-mt-40 mb-10 relative z-1">
       <Summary />
     </div>
     <ReviewSlideshow reviews={REVIEWS} />
     <Map />
-   
+    <Services />
     <Footer />
   </div>
-   </main>
+</main>
+
    );
 }
