@@ -34,7 +34,7 @@ const Summary = () => {
             fontFamily: '"Quicksand", sans-serif',
             fontWeight: 400
         }}>
-          we are dedicated to providing top-notch pest control services to ensure your home and business remain pest-free. With years of experience in the industry, our team of licensed professionals utilizes the latest techniques and eco-friendly solutions to effectively eliminate pests while prioritizing the safety of your family and pets.
+          We are dedicated to providing top-notch pest control services to ensure your home and business remain pest-free. With years of experience in the industry, our team of licensed professionals utilizes the latest techniques and eco-friendly solutions to effectively eliminate pests while prioritizing the safety of your family and pets.
           </p>
         </div>
 
