@@ -17,10 +17,10 @@ useEffect(() => {
 
 
   return (
-    <div className="py-16 px-6 mt-20 bg-[#000000]/70 
+    <div className="py-16 px-6 mt-20 bg-[radial-gradient(circle_at_center,_#fff3e3,_#e5caa5)]">
     
-    ">
-            <h1 className="text-4xl font-bold text-center mb-8 text-white"
+    
+            <h1 className="text-4xl font-bold text-center mb-8 text-black"
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700
@@ -87,7 +87,7 @@ useEffect(() => {
 
 
     </div>
-       <h1 className="text-2xl font-bold text-center mb-8 text-white"
+       <h1 className="text-2xl font-bold text-center mb-8 text-black"
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700

@@ -5,7 +5,7 @@ import Footer from "../global-components/footer";
 export default function Home() {
     return (
         <main
-            className="flex min-h-screen flex-col bg-[#000000] bg-no-repeat"
+            className="flex min-h-screen flex-col bg-[#ffffff] bg-no-repeat"
         >
             <Header />
             <ContactForm />

@@ -62,9 +62,11 @@ export default function FormSection() {
   };
 
   return (
-    <div className="relative bg-[url('/background2.jpg')] bg-cover bg-center h-screen">
+    <div className="relative bg-[url('/background2.jpg')] bg-cover bg-center ">
+
+
   
-    <div className="md:max-w-6xl mx-auto items-center mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[rgba(0,0,0,0.8)] p-10 rounded-2xl">
+    <div className="md:max-w-6xl mx-auto items-center mt-10 mb-10 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[rgba(0,0,0,0.8)] p-10 rounded-2xl">
      
      <div>
       <h1
