@@ -44,7 +44,7 @@ const Summary = () => {
           fontFamily: '"Quicksand", sans-serif',
           fontWeight: 400
       }}>
-          We understand that every home and business is unique. That's why we tailor our pest control services to meet your specific needs, ensuring effective and lasting results.
+          We understand that every home and business is unique. That's why we tailor our pest control contact to meet your specific needs, ensuring effective and lasting results.
         </p>
 
 

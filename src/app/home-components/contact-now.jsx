@@ -20,7 +20,7 @@
           </h1>
 
           <Link
-            href="/services"
+            href="/contact"
             className="mt-8 px-6 py-3 bg-[#801815] text-white text-xl rounded hover:bg-[#a12626] transition duration-300"
           >
             Get Started

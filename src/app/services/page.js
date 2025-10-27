@@ -1,15 +1,24 @@
-import Header from "../global-components/header";
-import ContactForm from "../services-components/contact-form";
-import Footer from "../global-components/footer";
+'use client';
+import Header from '../global-components/header';
+import ServicesIntro from '../services/services-intro';
+import Services from '../services/services';
+import Footer from '../global-components/footer';
 
-export default function Home() {
-    return (
-        <main
-            className="flex min-h-screen flex-col bg-[#ffffff] bg-no-repeat"
-        >
-            <Header />
-            <ContactForm />
-            <Footer />
-        </main>
-    );
+
+
+
+
+export default function Page(){
+  return(
+<main className="bg-white
+">
+  <div className="">
+    <Header />
+    <ServicesIntro />
+    <Services />
+    <Footer />
+  </div>
+</main>
+
+   );
 }

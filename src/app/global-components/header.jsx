@@ -5,14 +5,14 @@ import Image from 'next/image';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
+  const [contactOpen, setcontactOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  // Close Services on outside click
+  // Close contact on outside click
   useEffect(() => {
     const onClick = (e) => {
       if (!dropdownRef.current) return;
-      if (!dropdownRef.current.contains(e.target)) setServicesOpen(false);
+      if (!dropdownRef.current.contains(e.target)) setcontactOpen(false);
     };
     document.addEventListener('mousedown', onClick);
     return () => document.removeEventListener('mousedown', onClick);
@@ -22,7 +22,7 @@ const Header = () => {
   useEffect(() => {
     const onKey = (e) => {
       if (e.key === 'Escape') {
-        setServicesOpen(false);
+        setcontactOpen(false);
         setMenuOpen(false);
       }
     };
@@ -30,9 +30,9 @@ const Header = () => {
     return () => document.removeEventListener('keydown', onKey);
   }, []);
 
-  // If main mobile menu closes, close Services too
+  // If main mobile menu closes, close contact too
   useEffect(() => {
-    if (!menuOpen) setServicesOpen(false);
+    if (!menuOpen) setcontactOpen(false);
   }, [menuOpen]);
 
   return (
@@ -92,12 +92,12 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
+              <Link href="/services" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/services" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
+              <Link href="/contact" className="block px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">
                 Request a service
               </Link>
             </li>
