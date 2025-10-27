@@ -69,7 +69,7 @@ const Services = () => {
 
         {/* Box 3 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="w-150 h-55  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/home.jpg"
@@ -86,7 +86,7 @@ const Services = () => {
         </div>
 
 
-                <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
           <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
@@ -103,6 +103,178 @@ const Services = () => {
           </div>
         </div>
 
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/garage.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              GARAGE SERVICE
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/mouse.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              RODENT ABATEMENT
+            </h1>
+          </div>
+        </div>
+
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/spider-web.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              SPIDER WEB REMOVAL
+            </h1>
+          </div>
+        </div>
+
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/hornet.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              HORNET/WASP CONTROL
+            </h1>
+          </div>
+        </div>
+
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/cockroach.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              ROACH CONTROL
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/ant.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              ANT INFESTATIONS
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/scorpion2.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              SCORPION CONTROL
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/pest-inspection.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              PEST INSPECTION
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/custom.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              CUSTOMIZED HOME PEST SOLUTION
+            </h1>
+          </div>
+        </div>
+
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/broom.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              EAVE SWEEPING
+            </h1>
+          </div>
+        </div>
 
       </div>
     </div>
