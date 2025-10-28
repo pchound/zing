@@ -27,73 +27,107 @@ useEffect(() => {
         }}>
        OUR SERVICES
         </h1>
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-8 items-center"
-      style={{
-            fontFamily: '"Quicksand", sans-serif',
-            fontWeight: 300
-        }}>
-      {/* Text block */}
-
-     
-
-<div className="bg-radial 
- flex justify-center p-5 rounded-2xl ">
-  <div className="text-center bg-[#4d1207] rounded-2xl">
-    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
-    <Image
-      src="/icons/scorpion.png"
-      alt="icon"
-      width={100}
-      height={100}
-    />
-    </div>
-    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
-  </div>
-</div>
-
-<div className="bg-radial 
- flex justify-center p-5 rounded-2xl ">
-  <div className="text-center bg-[#000000]/70 rounded-2xl">
-    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
-    <Image
-      src="/icons/scorpion.png"
-      alt="icon"
-      width={100}
-      height={100}
-    />
-    </div>
-    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
-  </div>
-</div>
-
-<div className="bg-radial 
- flex justify-center p-5 rounded-2xl ">
-  <div className="text-center bg-[#4d1207] rounded-2xl">
-    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mt-4 mb-6 shadow-xl">
-    <Image
-      src="/icons/scorpion.png"
-      alt="icon"
-      width={100}
-      height={100}
-    />
-    </div>
-    <h1 className="text-white text-2xl mb-3 pl-5 pr-5">COMMERCIAL PEST CONTROL</h1>
-  </div>
-</div>
+      
 
 
 
 
 
+      <div
+        className="max-w-4xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-5 items-center justify-center"
+        style={{
+          fontFamily: '"Quicksand", sans-serif',
+          fontWeight: 300,
+        }}
+      >
+        {/* Box 1 */}
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="
+            w-[400px] h-[215px]
+            sm:w-[400px] sm:h-[215px]
+            md:w-[400px] md:h-[215px]
+            text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+          ">
 
-    </div>
-       <h1 className="text-2xl font-bold text-center mb-8 text-black"
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/scorpion2.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+                PEST FREE GUARANTEE
+            </h1>
+          </div>
+        </div>
+
+        {/* Box 2 */}
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/free.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              FREE RESERVICE
+            </h1>
+          </div>
+        </div>
+
+        {/* Box 3 */}
+        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
+              <Image
+                src="/icons/home.jpg"
+                alt="Commercial Pest Control"
+                width={80}
+                height={80}
+                className="object-cover rounded-full w-full h-full"
+              />
+            </div>
+            <h1 className="text-white text-2xl px-2 text-center leading-tight mb-3">
+              HOME PEST CONTROL
+            </h1>
+          </div>
+        </div>
+
+
+       
+
+      </div>
+
+
+
+
+            <h1 className="text-2xl font-bold text-center mb-8 text-black mt-15"
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700
         }}>
-    AND MANY MORE!
-    </h1>
+           <Link href="/services" className="px-3 py-2 text-lg text-black hover:text-red-700 hover:bg-gray-300 rounded">AND MANY MORE!</Link>
+       
+        </h1>
+
+      
     </div>
   );
 };

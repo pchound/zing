@@ -34,11 +34,11 @@ const Services = () => {
         {/* Box 1 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
           <div className="
-  w-[400px] h-[215px]
-  sm:w-[400px] sm:h-[215px]
-  md:w-[400px] md:h-[215px]
-  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
-">
+            w-[400px] h-[215px]
+            sm:w-[400px] sm:h-[215px]
+            md:w-[400px] md:h-[215px]
+            text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+          ">
 
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
@@ -57,7 +57,12 @@ const Services = () => {
 
         {/* Box 2 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/free.jpg"
@@ -75,7 +80,12 @@ const Services = () => {
 
         {/* Box 3 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/home.jpg"
@@ -93,7 +103,12 @@ const Services = () => {
 
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/interior.jpg"
@@ -110,7 +125,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/garage.jpg"
@@ -127,7 +147,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/mouse.jpg"
@@ -145,7 +170,12 @@ const Services = () => {
 
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/spider-web.jpg"
@@ -161,9 +191,13 @@ const Services = () => {
           </div>
         </div>
 
-
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/hornet.jpg"
@@ -181,7 +215,12 @@ const Services = () => {
 
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/cockroach.jpg"
@@ -198,7 +237,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/ant.jpg"
@@ -215,7 +259,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/scorpion2.jpg"
@@ -230,9 +279,13 @@ const Services = () => {
             </h1>
           </div>
         </div>
-
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/pest-inspection.jpg"
@@ -249,7 +302,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/custom.jpg"
@@ -266,7 +324,12 @@ const Services = () => {
         </div>
 
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/broom.jpg"

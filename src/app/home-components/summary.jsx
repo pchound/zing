@@ -17,8 +17,8 @@ const Summary = () => {
   <Image
     src="/scorpion2.jpg"
     alt="Pest Control Man"
-    width={1000}
-    height={1000}
+    width={300}
+    height={300}
     className=""
   />
 </div>
