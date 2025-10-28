@@ -10,17 +10,8 @@ const Intro = () => {
 
 
         <div className="relative bg-[url('/background5.jpg')] bg-cover bg-center h-screen">
-          <div className="flex justify-center pt-[40px]">
-            <Image
-              src="/logo.png"
-              alt="Zing Pest"
-              width={300}
-              height={300}
-              className="mt-10"
-            />
-          </div>
 
-            <h1 className="text-5xl text-center mt-20 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
+            <h1 className="text-8xl text-center pt-50  drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
             
             style={{
             fontFamily: '"Anton", sans-serif',
@@ -29,13 +20,31 @@ const Intro = () => {
                   Professional Pest Control
             </h1>
 
-            <h1 className="text-2xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
+            <h1 className="text-4xl text-center mt-5 drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
              style={{
             fontFamily: '"Anton", sans-serif',
             fontWeight: 400
         }}>
                   Family owned and operated
             </h1>
+
+
+
+
+<div className="flex justify-center">
+  <Link
+    href="/contact"
+    className="text-center px-3 py-2 mt-5 text-2xl rounded-xl bg-[#801815] text-white hover:bg-[#a12626] border-2 border-black"
+    style={{
+      fontFamily: '"Quicksand", sans-serif',
+      fontWeight: 400
+    }}
+  >
+    Get a free quote today!
+  </Link>
+</div>
+
+
 
           {/* Wavy divider at the bottom */}
           <svg
