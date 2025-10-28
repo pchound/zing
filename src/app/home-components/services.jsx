@@ -118,7 +118,7 @@ useEffect(() => {
 
 
 
-            <h1 className="text-2xl font-bold text-center mb-8 text-black mt-15"
+            <h1 className="text-2xl font-bold text-center mb-0 text-black mt-15 "
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700
