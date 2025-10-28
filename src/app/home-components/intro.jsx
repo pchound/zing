@@ -11,7 +11,7 @@ const Intro = () => {
 
         <div className="relative bg-[url('/background5.jpg')] bg-cover bg-center h-screen">
 
-            <h1 className="text-8xl text-center pt-50  drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
+            <h1 className="text-6xl lg:text-8xl text-center pt-60  drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
             
             style={{
             fontFamily: '"Anton", sans-serif',
