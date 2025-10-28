@@ -33,7 +33,13 @@ const Services = () => {
       >
         {/* Box 1 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="
+  w-[400px] h-[215px]
+  sm:w-[400px] sm:h-[215px]
+  md:w-[400px] md:h-[215px]
+  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl
+">
+
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/scorpion2.jpg"
@@ -51,7 +57,7 @@ const Services = () => {
 
         {/* Box 2 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between shadow-xl">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/free.jpg"
@@ -69,7 +75,7 @@ const Services = () => {
 
         {/* Box 3 */}
         <div className="bg-radial flex justify-center p-0 rounded-2xl">
-          <div className="w-150 h-55  text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
+          <div className="w-150 h-55 text-center bg-[#4d1207] rounded-2xl flex flex-col items-center justify-between  shadow-xl">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mt-6 mb-5 shadow-lg">
               <Image
                 src="/icons/home.jpg"
