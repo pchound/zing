@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 
 
@@ -25,9 +25,7 @@ export default function ReviewsCarousel({
   pauseOnHover = true,
 }: Props) {
 
-    useEffect(() => {
-        AOS.init({ once: false });
-    }, []);
+
 
 // Font import
 useEffect(() => {
