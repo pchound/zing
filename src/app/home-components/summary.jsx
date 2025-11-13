@@ -3,7 +3,14 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const Summary = () => {
+    useEffect(() => {
+        AOS.init({ once: false });
+    }, []);
 
   return (
     <div className="py-16 px-6">
@@ -22,7 +29,9 @@ const Summary = () => {
     className=""
   />
 </div>
-    <div className="md:col-span-2">
+
+    <div className="md:col-span-2"  >
+      <div data-aos="fade-up" data-aos-duration="800">
         <h1 className="text-5xl font-bold mb-20 text-black"
             style={{
             fontFamily: '"Anton", sans-serif',
@@ -30,8 +39,11 @@ const Summary = () => {
         }}>
        As a family owned business, we offer:
         </h1>
+        </div>
 
-         <h1 className="text-3xl font-bold mb-3 text-black"
+
+<div data-aos="fade-up" data-aos-duration="800">
+         <h1 className="text-3xl font-bold mb-3 text-black" 
             style={{
             fontFamily: '"Anton", sans-serif',
             fontWeight: 700
@@ -46,9 +58,11 @@ const Summary = () => {
       }}>
           We understand that every home and business is unique. That's why we tailor our pest control contact to meet your specific needs, ensuring effective and lasting results.
         </p>
+</div>
 
 
 
+<div data-aos="fade-up" data-aos-duration="800">
         <h1 className="text-3xl font-bold mb-3 text-black"
             style={{
             fontFamily: '"Anton", sans-serif',
@@ -64,9 +78,11 @@ const Summary = () => {
       }}>
           Our goal is not just to eliminate pests but to prevent future infestations. We provide ongoing maintenance plans and advice to keep your property pest-free year-round.
         </p>
+</div>
 
 
 
+<div data-aos="fade-up" data-aos-duration="800">
         <h1 className="text-3xl font-bold mb-3 text-black"
             style={{
             fontFamily: '"Anton", sans-serif',
@@ -82,7 +98,7 @@ const Summary = () => {
       }}>
           We know that pest problems require immediate attention. Our team is committed to responding quickly to your service requests, minimizing the impact on your home or business.
         </p>
-
+</div>
           
 
     </div>

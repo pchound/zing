@@ -3,7 +3,13 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Services = () => {
+      useEffect(() => {
+        AOS.init({ once: false });
+    }, []);
   useEffect(() => {
     const link = document.createElement('link');
     link.href =
@@ -32,7 +38,7 @@ const Services = () => {
         }}
       >
         {/* Box 1 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
             w-[400px] h-[215px]
             sm:w-[400px] sm:h-[215px]
@@ -56,7 +62,7 @@ const Services = () => {
         </div>
 
         {/* Box 2 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -79,7 +85,7 @@ const Services = () => {
         </div>
 
         {/* Box 3 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -102,7 +108,7 @@ const Services = () => {
         </div>
 
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -124,7 +130,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -146,7 +152,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -169,7 +175,7 @@ const Services = () => {
         </div>
 
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -191,7 +197,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -214,7 +220,7 @@ const Services = () => {
         </div>
 
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -236,7 +242,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -258,7 +264,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -279,7 +285,7 @@ const Services = () => {
             </h1>
           </div>
         </div>
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -301,7 +307,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -323,7 +329,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]

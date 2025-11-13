@@ -17,10 +17,10 @@ useEffect(() => {
 
 
   return (
-    <div className="py-16 px-6 mt-20 bg-[radial-gradient(circle_at_center,_#fff3e3,_#e5caa5)]">
+    <div className="py-16 px-6 mt-20 bg-[radial-gradient(circle_at_center,_#fff3e3,_#e5caa5)] " >
     
     
-            <h1 className="text-4xl font-bold text-center mb-8 text-black"
+            <h1 className="text-4xl font-bold text-center mb-8 text-black" data-aos="fade-up" data-aos-duration="800"
             style={{
             fontFamily: '"Inter", sans-serif',
             fontWeight: 700
@@ -41,7 +41,8 @@ useEffect(() => {
         }}
       >
         {/* Box 1 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
             w-[400px] h-[215px]
             sm:w-[400px] sm:h-[215px]
@@ -65,7 +66,7 @@ useEffect(() => {
         </div>
 
         {/* Box 2 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]
@@ -88,7 +89,7 @@ useEffect(() => {
         </div>
 
         {/* Box 3 */}
-        <div className="bg-radial flex justify-center p-0 rounded-2xl">
+        <div className="bg-radial flex justify-center p-0 rounded-2xl" data-aos="fade-up" data-aos-duration="800">
           <div className="
   w-[400px] h-[215px]
   sm:w-[400px] sm:h-[215px]

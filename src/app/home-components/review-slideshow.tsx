@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 type Review = {
@@ -22,6 +24,10 @@ export default function ReviewsCarousel({
   autoPlayMs = 5000,
   pauseOnHover = true,
 }: Props) {
+
+    useEffect(() => {
+        AOS.init({ once: false });
+    }, []);
 
 // Font import
 useEffect(() => {
@@ -125,7 +131,7 @@ useEffect(() => {
 
 
 
-
+<div data-aos="fade-up" data-aos-duration="800">
       <div
       className="pt-20 pb-10 "
 
@@ -232,6 +238,7 @@ useEffect(() => {
         </div>
       </div>
       </div>
+    </div>
     </section>
   );
 }
