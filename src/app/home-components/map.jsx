@@ -2,7 +2,15 @@
 import { useEffect } from 'react';
 import Image from 'next/image';
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Map = () => {
+    useEffect(() => {
+        AOS.init({ once: false });
+    }, []);
+
   // Fix the font link tag
   useEffect(() => {
     const link = document.createElement('link');
@@ -13,7 +21,7 @@ const Map = () => {
   }, []);
 
   return (
-    <div className="">
+    <div data-aos="fade-up" data-aos-duration="800">
     <div className="py-5 px-0 mt-20 ">
   
       <div className="max-w-sm md:max-w-7xl mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-0 items-center  ">
@@ -38,7 +46,7 @@ const Map = () => {
               fontFamily: '"Anton", sans-serif',
               fontWeight: 300
           }}>
-    We cover the Las Vegas Valley and surrounding areas!
+    We cover the Las Vegas Valley and surrounding areas
   </h1>
 
   <br /><br />

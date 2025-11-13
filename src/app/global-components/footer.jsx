@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,8 +11,10 @@ const Footer = () => {
     >
 
         <div className="flex justify-center items-center gap-2 mb-3">
-            <Image src="/icons/phone.png" alt="Phone Icon" width={20} height={20} className="mt-[3px]" />
-            <h1 className="text-black text-1xl">(725) 242-3555</h1>
+           
+              <Image src="/icons/phone.png" alt="Phone Icon" width={20} height={20} className="mt-[3px]" />
+              <Link href="tel:17252423555" className="text-black text-1xl">(725) 242-3555</Link>
+          
         </div>
 
         <div className="flex justify-center items-center gap-2 mb-3">

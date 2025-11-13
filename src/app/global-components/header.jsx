@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <nav
       className="shadow-[inset_1px_0px_64px_0px_rgba(0,_0,_0,_0.3)]"
-      style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 400 }}
+      style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pt-10 pb-5 md:pb-5 lg:pb-5 relative">
 
@@ -48,8 +48,8 @@ const Header = () => {
           <Image
             src="/logo.png" // <-- replace with your image path
             alt="Logo"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="mt-[-15px]"
           />
           </Link>
