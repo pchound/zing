@@ -48,7 +48,7 @@ const Intro = () => {
 
           {/* Wavy divider at the bottom */}
           <svg
-            className="absolute bottom-0 left-0 w-full"
+            className="absolute -bottom-[1px] left-0 w-full block"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
           >
