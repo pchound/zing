@@ -9,7 +9,7 @@ const Intro = () => {
       <div className="pb-[130px] md:pb-[50px]">
 
 
-        <div className="relative bg-[url('/')] bg-cover bg-center h-screen">
+        <div className="relative bg-[url('/test-background7.jpg')] bg-cover bg-center h-screen">
 
             <h1 className="text-6xl lg:text-8xl text-center pt-60  drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
             
