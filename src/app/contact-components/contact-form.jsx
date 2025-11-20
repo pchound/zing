@@ -95,7 +95,7 @@ export default function FormSection() {
               type="text"
               name="fname"
               onChange={handleInput}
-              required
+              
               value={formData.fname}
               className="bg-none rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
@@ -106,7 +106,7 @@ export default function FormSection() {
               type="text"
               name="lname"
               onChange={handleInput}
-              required
+              
               value={formData.lname}
               className="bg-none rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
             />
@@ -124,7 +124,7 @@ export default function FormSection() {
                 placeholder="(123) 456-7890"
                 value={formData.phone}
                 onChange={handleInput}
-                required
+                
                 inputMode="numeric"
                 autoComplete="tel"
                 maxLength={14} // "(123) 456-7890"
@@ -144,7 +144,7 @@ export default function FormSection() {
                 type="email"
                 name="email"
                 onChange={handleInput}
-                required
+                
                 value={formData.email}
                 className="bg-[none] rounded-2xl p-2 w-full border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />
@@ -160,7 +160,7 @@ export default function FormSection() {
               <textarea
                 name="message"
                 onChange={handleInput}
-                required
+                
                 value={formData.message}
                 className="bg-[none] rounded-2xl p-2 w-full h-40 border border-white focus:border-[#c56832] focus:ring-2 focus:ring-[#c56832] outline-none"
               />

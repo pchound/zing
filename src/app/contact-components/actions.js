@@ -27,9 +27,9 @@ function escapeHtml(s = '') {
 }
 
 export async function sendEmail({ fname, lname, phone, email, message }) {
-  if (!fname || !lname || !phone || !email || !message) {
+  /*if (!fname || !lname || !phone || !email || !message) {
     return { success: false, error: 'Missing required fields' };
-  }
+  }*/
 
   // Always compute the formatted version on the server
   const phoneDigits = String(phone).replace(/\D/g, '');
