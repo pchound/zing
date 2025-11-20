@@ -9,7 +9,7 @@ const Intro = () => {
       <div className="pb-[130px] md:pb-[50px]">
 
 
-        <div className="relative bg-[url('/test-background7.jpg')] bg-cover bg-center h-screen">
+        <div className="relative bg-[url('/new-background.jpg')] bg-cover bg-center h-screen">
 
             <h1 className="text-6xl lg:text-8xl text-center pt-60  drop-shadow-[0_0_10px_rgba(0,0,0,1)] text-white"
             
@@ -34,7 +34,7 @@ const Intro = () => {
 <div className="flex justify-center">
   <Link
     href="/contact"
-    className="text-center px-3 py-2 mt-5 text-2xl rounded-xl bg-[#801815] text-white hover:bg-[#a12626] border-2 border-black"
+    className=" text-center px-3 py-2 mt-5 text-2xl rounded-xl bg-[#801815] text-white hover:bg-[#a12626] border-2 border-black"
     style={{
       fontFamily: '"Quicksand", sans-serif',
       fontWeight: 400
@@ -48,7 +48,7 @@ const Intro = () => {
 
           {/* Wavy divider at the bottom */}
           <svg
-            className="absolute -bottom-[1px] left-0 w-full block"
+            className="absolute -bottom-[1px] left-0 w-full block z-0 pointer-events-none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
           >
